@@ -2,6 +2,45 @@ body{
 	background: #efefef;
 	font-family: arial;
 }
+{
+	background-colour:skyblue;
+}
+{
+	background-colour:slategrey;
+}
+{
+	background-colour:springgreen;
+}
+{
+	background-colour:tan;
+}
+{
+	background-colour:tomato;
+}
+
+
+{
+	background:linear-gradient(skyblue, lightgreen);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+{
+	background:linear-gradient(to right slategrey, springgreen);
+	background-repeat: no-repeat;
+}
+{
+	background:linear-gradient(to left tan, tomato);
+}
+{
+	background:linear-gradient(to bottom tomato, lightpink);
+	backgroun-repeat: no-repeat;
+}
+{
+	background:linear-gradient(to top lightgrey, lightcoral);
+	backgroun-repeat: no-repeat;
+}
+
 h1{
 	font-size: 18px;
 }
@@ -13,9 +52,31 @@ a:hover {
 	colour: #000000;
 	text-decoration: none;
 }
+{ 
+border-top-style: dotted;
+border-bottom-style: dotted;
+border-left-style:double;
+border-left-width: 10px;
+border-left-colour: silver
+ }
+ {
+	background:linear-gradient(to bottom tomato, lightpink);
+	backgroun-repeat: no-repeat;
+}
+p{
+	background:linear-gradient(to right slategrey, springgreen);
+	background-repeat: no-repeat;
+}
 h2 {
 	font-size: 16px;
 }
 p {
 	font-size: 14px;
+}
+P{
+	border-style:solid;
+	border-width: 5px;
+	border-colour: gold;
+	border-radius: 10px;
+	padding: 5px;
 }
